@@ -1,0 +1,74 @@
+
+
+<!doctype html>
+<html>
+<head> 
+<title> Assessment</title>
+<LINK href="ContactDetails.css" rel="stylesheet" type="text/css">
+	
+
+</head>
+
+
+<body>
+
+<header> 
+<p1> Online Store </p1>
+</header>
+<!-- This nav part is for the navigation bar -->
+<nav>
+<ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="Cars.html">Cars</a></li>
+  <li><a href="Boats.html">Boats</a></li>
+  <li><a href="MotorCycles.html">Motorcycles</a></li>
+  <li><a href="Bikes.html">Bikes</a></li>
+  <li><a href="Delivery%20Details.html">Delivry Details</a></li>
+  <li><a href="Contact%20Details.html">Contact Details</a></li>
+  <li><a href="About%20us.html">About Us</a></li>
+   <li><a href="Demo.html">Demo</a></li>
+</ul>
+</nav>
+
+<!-- In the section we have a table with contact info a little paragraph about the company and a form to summit a question -->
+<section>
+<!-- This is the part responsible for the table with contact details it doesn't do anything special -->
+<table class="contactinfo">
+    <tr><td>Tel:</td><td>07520060101</td><td>Lines Open From 9:00 to 18:00 Monday to Friday</td></tr>
+    <tr><td>E-Mail:</td><td>ck141841302@gmail.com</td><td></td></tr>
+    <tr><td>Address:</td><td>Brayford Pool, Lincoln    </td><td> LN6 7TS    </td></tr>
+	<tr><td>Opening times:</td><td>Open from 9:00 to 18:00 Monday to Friday</td><td> 
+</table>
+<!-- Here is a little paragraph about the company nothing special here either-->
+<p>You can contact our advisors through E-Mail, phone or come in person, we offer customer support in all areas from  <br> chosing your dream car
+to helping you find the most suitable one.</p>
+<br>
+<p> Summit a question to our team </p>
+
+<!-- This part is the form. To make this i used divs to position everything this part of code is responsible for the text saying what you need to input like name surname etc -->
+<form>
+<div class='razem'>
+<div class='jedyneczka'>First name<br>Second name<br>Email<br>Telephone number</div>
+<!-- This is for the boxes where you need to input the information -->
+<div>:<input type="text"/><br>:<input type="text"/><br>:<input type="text"/><br>:<input type="text"/></div>
+</div>
+<!-- This here is the bigger box to describe your problem -->
+ Description : <br />
+<textarea rows="5" cols="50" name="description">
+Enter description here...
+</textarea>
+<br>
+Which of the following you are contacting us about? <br>
+<!-- Here i done readio buttons to pick which item you are writing about -->
+<input type="radio" name="subject" value="car"> Car
+<input type="radio" name="subject" value="boat"> Boat
+<input type="radio" name="subject" value="motorcycle"> Motorcycle
+<input type="radio" name="subject" value="bike"> Bike
+<br>
+<!-- Here i done two buttons to let you reset what you have writen or submit it -->
+<input type="submit" name="submit" value="Submit" />
+<input type="reset" name="reset"  value="Reset" />
+</form>
+</section>
+</body>
+</html>

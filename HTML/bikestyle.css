@@ -1,0 +1,191 @@
+#wrapper{
+margin: 0 0 0 0;
+}
+div.bike{
+
+margin: 5 5 5 5;
+float: left;
+overflow: hidden;
+border-width: 1px;
+border-style: solid;
+height: 140px;
+width: 390px;
+padding: 0 5px 0 5px;
+}
+
+#bikeimg1,#bikeimg2,#bikeimg3,#bikeimg4,#bikeimg5,#bikeimg6,#bikeimg7,#bikeimg8,#bikeimg9,#bikeimg10,#bikeimg11,#bikeimg12,#bikeimg13,#bikeimg14,#bikeimg15,#bikeimg16{
+float: left;
+width: 200px;
+height: 80px;
+position: relative;
+top: 30px;
+
+}
+#bikeimg1{
+content:url(../HTML/bike1/a.png);
+}
+#bikeimg2{
+content:url(../HTML/bike2/a.png);
+}
+#bikeimg3{
+content:url(../HTML/bike3/a.png);
+}
+#bikeimg4{
+content:url(../HTML/bike4/a.png);
+}
+#bikeimg5{
+content:url(../HTML/bike5/a.png);
+}
+#bikeimg6{
+content:url(../HTML/bike6/a.png);
+}
+#bikeimg7{
+content:url(../HTML/bike7/a.png);
+}
+#bikeimg8{
+content:url(../HTML/bike8/a.png);
+}
+#bikeimg9{
+content:url(../HTML/bike9/a.png);
+}
+#bikeimg10{
+content:url(../HTML/bike10/a.png);
+}
+#bikeimg11{
+content:url(../HTML/bike11/a.png);
+}
+#bikeimg12{
+content:url(../HTML/bike12/a.png);
+}
+#bikeimg13{
+content:url(../HTML/bike13/a.png);
+}
+#bikeimg14{
+content:url(../HTML/bike14/a.png);
+}
+#bikeimg15{
+content:url(../HTML/bike15/a.png);
+}
+#bikeimg16{
+content:url(../HTML/bike16/a.png);
+}
+
+.description{
+position: relative;
+top: calc(50% - 10px);
+left: 8%;
+transform: translate(0, -50%)
+}
+
+.buttonwrapper{
+position: absolute;
+margin-top: 67px;
+margin-left: 70px;
+width: 80px;
+height: 20px;
+}
+.button1,.button2,.button3{
+
+
+width: 20px;
+height: 20px;
+}
+.button1{
+
+background: #000000;
+}
+.button2{
+background: #c1c1c1;
+position: relative;
+top: -20px;
+left: 30px;
+}
+.button3{
+position: relative;
+top: -40px;
+left: 60px;
+background: blue;
+}
+
+
+
+/* The ul, li and l parts are responsible for the navigation bar */
+/* The ul tag is here to display the list as a whole.  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+/* The li tag is here to take care of the display of items */
+li {
+    float: left;
+}
+/* This part is here so that when you hover over an item something happens  */
+li a {
+	margin-left:95px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+/* This part is here so that when you hover over an item something happens  */
+li a:hover {
+    background-color: #111111;
+	underline: red;
+}	
+
+/* This is here to make the items and the writing in the navigation bar go to their correct place with out this it will just be a sentance of links  */
+1{
+	background-color: #333333;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 30px;
+	}
+	
+/* in here we have the background and text settings for section and its size */
+section{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+
+	
+	}
+	
+/* in here we have the background and text setings and size of the article*/	
+article{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+	margin-top:1px;
+	height: 500px;
+
+	}
+	
+
+/* in here we have same as for article but for header part of the page */
+header{
+	background-color: #333333;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	height: 75px;
+}	
+/* This is for the size and background and text settings and display for footer*/
+footer{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+	margin-top:1px;
+	height: 500px;
+	}
+

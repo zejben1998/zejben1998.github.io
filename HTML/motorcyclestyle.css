@@ -1,0 +1,191 @@
+#wrapper{
+margin: 0 0 0 0;
+}
+div.motorcycle{
+
+margin: 5 5 5 5;
+float: left;
+overflow: hidden;
+border-width: 1px;
+border-style: solid;
+height: 140px;
+width: 390px;
+padding: 0 5px 0 5px;
+}
+
+#motorcycleimg1,#motorcycleimg2,#motorcycleimg3,#motorcycleimg4,#motorcycleimg5,#motorcycleimg6,#motorcycleimg7,#motorcycleimg8,#motorcycleimg9,#motorcycleimg10,#motorcycleimg11,#motorcycleimg12,#motorcycleimg13,#motorcycleimg14,#motorcycleimg15,#motorcycleimg16{
+float: left;
+width: 200px;
+height: 80px;
+position: relative;
+top: 30px;
+
+}
+#motorcycleimg1{
+content:url(../HTML/motorcycle1/a.png);
+}
+#motorcycleimg2{
+content:url(../HTML/motorcycle2/a.png);
+}
+#motorcycleimg3{
+content:url(../HTML/motorcycle3/a.png);
+}
+#motorcycleimg4{
+content:url(../HTML/motorcycle4/a.png);
+}
+#motorcycleimg5{
+content:url(../HTML/motorcycle5/a.png);
+}
+#motorcycleimg6{
+content:url(../HTML/motorcycle6/a.png);
+}
+#motorcycleimg7{
+content:url(../HTML/motorcycle7/a.png);
+}
+#motorcycleimg8{
+content:url(../HTML/motorcycle8/a.png);
+}
+#motorcycleimg9{
+content:url(../HTML/motorcycle9/a.png);
+}
+#motorcycleimg10{
+content:url(../HTML/motorcycle10/a.png);
+}
+#motorcycleimg11{
+content:url(../HTML/motorcycle11/a.png);
+}
+#motorcycleimg12{
+content:url(../HTML/motorcycle12/a.png);
+}
+#motorcycleimg13{
+content:url(../HTML/motorcycle13/a.png);
+}
+#motorcycleimg14{
+content:url(../HTML/motorcycle14/a.png);
+}
+#motorcycleimg15{
+content:url(../HTML/motorcycle15/a.png);
+}
+#motorcycleimg16{
+content:url(../HTML/motorcycle16/a.png);
+}
+
+.description{
+position: relative;
+top: calc(50% - 10px);
+left: 8%;
+transform: translate(0, -50%)
+}
+
+.buttonwrapper{
+position: absolute;
+margin-top: 67px;
+margin-left: 70px;
+width: 80px;
+height: 20px;
+}
+.button1,.button2,.button3{
+
+
+width: 20px;
+height: 20px;
+}
+.button1{
+
+background: #000000;
+}
+.button2{
+background: #c1c1c1;
+position: relative;
+top: -20px;
+left: 30px;
+}
+.button3{
+position: relative;
+top: -40px;
+left: 60px;
+background: blue;
+}
+
+
+
+/* The ul, li and l parts are responsible for the navigation bar */
+/* The ul tag is here to display the list as a whole.  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+/* The li tag is here to take care of the display of items */
+li {
+    float: left;
+}
+/* This part is here so that when you hover over an item something happens  */
+li a {
+	margin-left:95px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+/* This part is here so that when you hover over an item something happens  */
+li a:hover {
+    background-color: #111111;
+	underline: red;
+}	
+
+/* This is here to make the items and the writing in the navigation bar go to their correct place with out this it will just be a sentance of links  */
+1{
+	background-color: #333333;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 30px;
+	}
+	
+/* in here we have the background and text settings for section and its size */
+section{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+
+	
+	}
+	
+/* in here we have the background and text setings and size of the article*/	
+article{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+	margin-top:1px;
+	height: 500px;
+
+	}
+	
+
+/* in here we have same as for article but for header part of the page */
+header{
+	background-color: #333333;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	height: 75px;
+}	
+/* This is for the size and background and text settings and display for footer*/
+footer{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+	margin-top:1px;
+	height: 500px;
+	}
+

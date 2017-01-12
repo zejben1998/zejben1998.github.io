@@ -1,0 +1,115 @@
+/* The ul, li and l parts are responsible for the navigation bar */
+/* The ul tag is here to display the list as a whole.  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+/* The li tag is here to take care of the display of items */
+li {
+    float: left;
+}
+/* This part is here so that when you hover over an item something happens  */
+li a {
+	margin-left:95px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+/* This part is here so that when you hover over an item something happens  */
+li a:hover {
+    background-color: #111111;
+	underline: red;
+}	
+
+/* This is here to make the items and the writing in the navigation bar go to their correct place with out this it will just be a sentance of links  */
+1{
+	background-color: #333333;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 30px;
+	}
+	
+/* This here changes the size, background and text settings for section part of the page*/
+section{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+	height: 600px;
+	width: 1100px;
+	
+	}
+	/* this here changes the size, background and text settings for aside part of the page*/
+aside{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+	margin-left:1001px;
+	margin-top: -600px;
+	height:600px;
+	width: 566px;
+	
+	}
+	/* this here changes the size, background and text settings for article part of the page*/
+article{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+	margin-top:1px;
+	height: 500px;
+
+	}
+
+}	
+/* this here changes the size, background and text settings for header part of the page*/
+header{
+	background-color: #333333;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	height: 75px;
+}	
+/* this here changes the size, background and text settings for footer part of the page*/
+footer{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+	margin-top:1px;
+	height: 500px;
+	}
+/* Those are the settings for size of slideshows */
+	.slideshow{
+width: 600px;
+position: relative;
+margin: auto;
+ 
+}
+/* here we have the position settings for next and prev buttons for the sliders */
+.prev, .next{
+position: absolute;
+top: calc(50% - 15px);
+}
+/* here is some position setting for next only button on the slider*/
+.next{
+right: 0;
+}
+/* here are some settings for buttons of the slider*/
+.button{
+position: relative;
+margin: auto;
+left: 50%;
+}
+

@@ -1,0 +1,188 @@
+#wrapper{
+margin: 0 0 0 0;
+}
+div.boats{
+
+margin: 5 5 5 5;
+float: left;
+overflow: hidden;
+border-width: 1px;
+border-style: solid;
+height: 140px;
+width: 390px;
+padding: 0 5px 0 5px;
+}
+
+#boatimg1,#boatimg2,#boatimg3,#boatimg4,#boatimg5,#boatimg6,#boatimg7,#boatimg8,#boatimg9,#boatimg10,#boatimg11,#boatimg12,#boatimg13,#boatimg14,#boatimg15{
+float: left;
+width: 200px;
+height: 80px;
+position: relative;
+top: 30px;
+
+}
+#boatimg1{
+content:url(../HTML/boats1/a.png);
+}
+#boatimg2{
+content:url(../HTML/boats2/a.png);
+}
+#boatimg3{
+content:url(../HTML/boats3/a.png);
+}
+#boatimg4{
+content:url(../HTML/boats4/a.png);
+}
+#boatimg5{
+content:url(../HTML/boats5/a.png);
+}
+#boatimg6{
+content:url(../HTML/boats6/a.png);
+}
+#boatimg7{
+content:url(../HTML/boats7/a.png);
+}
+#boatimg8{
+content:url(../HTML/boats8/a.png);
+}
+#boatimg9{
+content:url(../HTML/boats9/a.png);
+}
+#boatimg10{
+content:url(../HTML/boats10/a.png);
+}
+#boatimg11{
+content:url(../HTML/boats11/a.png);
+}
+#boatimg12{
+content:url(../HTML/boats12/a.png);
+}
+#boatimg13{
+content:url(../HTML/boats13/a.png);
+}
+#boatimg14{
+content:url(../HTML/boats14/a.png);
+}
+#boatimg15{
+content:url(../HTML/boats15/a.png);
+}
+
+.description{
+position: relative;
+top: calc(50% - 10px);
+left: 8%;
+transform: translate(0, -50%)
+}
+
+.buttonwrapper{
+position: absolute;
+margin-top: 67px;
+margin-left: 70px;
+width: 80px;
+height: 20px;
+}
+.button1,.button2,.button3{
+
+
+width: 20px;
+height: 20px;
+}
+.button1{
+
+background: #000000;
+}
+.button2{
+background: #c1c1c1;
+position: relative;
+top: -20px;
+left: 30px;
+}
+.button3{
+position: relative;
+top: -40px;
+left: 60px;
+background: blue;
+}
+
+
+
+/* The ul, li and l parts are responsible for the navigation bar */
+/* The ul tag is here to display the list as a whole.  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+/* The li tag is here to take care of the display of items */
+li {
+    float: left;
+}
+/* This part is here so that when you hover over an item something happens  */
+li a {
+	margin-left:95px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+/* This part is here so that when you hover over an item something happens  */
+li a:hover {
+    background-color: #111111;
+	underline: red;
+}	
+
+/* This is here to make the items and the writing in the navigation bar go to their correct place with out this it will just be a sentance of links  */
+1{
+	background-color: #333333;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 30px;
+	}
+	
+/* in here we have the background and text settings for section and its size */
+section{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+
+	
+	}
+	
+/* in here we have the background and text setings and size of the article*/	
+article{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+	margin-top:1px;
+	height: 500px;
+
+	}
+	
+
+/* in here we have same as for article but for header part of the page */
+header{
+	background-color: #333333;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	height: 75px;
+}	
+/* This is for the size and background and text settings and display for footer*/
+footer{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+	margin-top:1px;
+	height: 500px;
+	}
+

@@ -1,0 +1,195 @@
+#wrapper{
+margin: 0 0 0 0;
+}
+div.car{
+
+margin: 5 5 5 5;
+float: left;
+overflow: hidden;
+border-width: 1px;
+border-style: solid;
+height: 140px;
+width: 390px;
+padding: 0 5px 0 5px;
+}
+
+#carimg1,#carimg2,#carimg3,#carimg4,#carimg5,#carimg6,#carimg7{
+float: left;
+width: 200px;
+height: 80px;
+position: relative;
+top: 30px;
+
+}
+#carimg1{
+content:url(car1/a.jpg);
+}
+#carimg2{
+content:url(car2/a.jpg);
+}
+#carimg3{
+content:url(car3/a.jpg);
+}
+#carimg4{
+content:url(car4/a.jpg);
+}
+#carimg5{
+content:url(car5/a.jpg);
+}
+#carimg6{
+content:url(car6/a.jpg);
+}
+#carimg7{
+content:url(car7/a.jpg);
+}
+
+.description{
+position: relative;
+top: calc(50% - 10px);
+left: 8%;
+transform: translate(0, -50%)
+}
+
+.buttonwrapper{
+position: absolute;
+margin-top: 40px;
+margin-left: 70px;
+width: 80px;
+height: 20px;
+}
+.button1,.button2,.button3{
+
+
+width: 20px;
+height: 20px;
+}
+.button1{
+
+background: #000000;
+}
+.button2{
+background: #c1c1c1;
+position: relative;
+top: -20px;
+left: 30px;
+}
+.button3{
+position: relative;
+top: -40px;
+left: 60px;
+background: blue;
+}
+
+
+
+/* The ul, li and l parts are responsible for the navigation bar */
+/* The ul tag is here to display the list as a whole.  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+/* The li tag is here to take care of the display of items */
+li {
+    float: left;
+}
+/* This part is here so that when you hover over an item something happens  */
+li a {
+	margin-left:95px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+/* This part is here so that when you hover over an item something happens  */
+li a:hover {
+    background-color: #111111;
+	underline: red;
+}	
+
+/* This is here to make the items and the writing in the navigation bar go to their correct place with out this it will just be a sentance of links  */
+1{
+	background-color: #333333;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 30px;
+	}
+	
+/* in here we have the background and text settings for section and its size */
+section{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+	height: 600px;
+	width: 1567px;
+	
+	}
+	
+/* in here we have the background and text setings and size of the article*/	
+article{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+	margin-top:1px;
+	height: 500px;
+
+	}
+	
+
+/* in here we have same as for article but for header part of the page */
+header{
+	background-color: #333333;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	height: 75px;
+}	
+/* This is for the size and background and text settings and display for footer*/
+footer{
+	background-color: #777777;
+	color: white;
+    text-align: left;
+    text-decoration: none;
+	font-size: 15px;
+	margin-top:1px;
+	height: 500px;
+	}
+
+
+/* This is responsible for size of div in which i put my items */	
+	#carsshop{
+height: 600px;
+width: 1250px;
+float:left;
+}
+
+/* This is a class that states the size of boxes in which i have items*/
+.pic1{
+float:left;
+width:300px;
+height:120px;
+display: inline-block;
+/* here we have the size of items*/
+}
+.pic1 img{
+width:200px;
+height:120px;
+display:inline;
+vertical-align:middle;
+
+}
+/* Here is a class responsible for the writing next to the items*/
+.text2{
+display:inline-block;
+vertical-align:middle;
+	position:relative;
+left:10px;
+}
